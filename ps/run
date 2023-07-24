@@ -1,0 +1,7 @@
+function RunCommand($Command) {
+    if($env:OS -eq 'Windows_NT') {
+    CMD /c $Command 
+  } else {
+    Invoke-Expression "/bin/bash $Command"
+  }
+}
