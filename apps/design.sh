@@ -1,0 +1,10 @@
+
+
+
+list=(
+
+"CorelDraw"
+"Photoshop"
+"Figma"
+
+)
