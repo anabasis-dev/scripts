@@ -1,0 +1,2 @@
+echo "Zabbix Agent"
+
